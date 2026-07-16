@@ -24,3 +24,23 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+/* #teste{
+  background-image: url("/imagem/Hollow-Knight-Silksong-e-adiado-nova-data-nao-foi-anunciada.webp");
+} */
+
+#h1-1{
+  position: absolute;
+  top: 450px; 
+  bottom: 150px;
+  right: 1300px;
+  color: #f4f3f7;
+  font-size: 50px
+}
+#p-1{
+  position: absolute;
+  left: 20%;
+  font-size: 30px;
+  bottom: 155px
+  
+
+}

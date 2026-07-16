@@ -14,11 +14,11 @@ export default function Home() {
   </ul>
 </nav>
     <div className="flex w-full h-500 ">
-      <div className="bg-gray-900 w-1/2 h-1/4" >
-      <img src="" alt="" />
+      <div className="bg-gray-900 w-1/2 h-1/4 flex flex-col items-center justify-center" >
+      
       <img className="w-full h-full object-cover" src="imagem/Hollow-Knight-Silksong-e-adiado-nova-data-nao-foi-anunciada.webp" alt="" />
-      <h1>aqui</h1>
-      <p></p>
+      <h1 id="h1-1" className="">TITULO</h1>
+      <p id="p-1">palavra</p>
       </div>
       <div className="bg-rose-900 w-1/2 h-1/4">
     <p>div2</p>
