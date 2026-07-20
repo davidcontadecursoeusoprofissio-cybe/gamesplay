@@ -17,10 +17,10 @@ export default function Home() {
       <div className="bg-gray-900 w-1/2 h-1/4 flex flex-col items-center justify-center" >
       
       <img className="w-full h-full object-cover" src="imagem/Hollow-Knight-Silksong-e-adiado-nova-data-nao-foi-anunciada.webp" alt="" />
-      <h1 id="h1-1" className="">TITULO</h1>
-      <p id="p-1">palavra</p>
+      <h1 id="h1-1" className="">DIGITALGAMES</h1>
+      <p id="p-1" className="whitespace no-warp bg-transparent">aqui você encontra jogos digitais,como retro e atuais</p>
       </div>
-      <div className="bg-rose-900 w-1/2 h-1/4">
+      <div className="bg-[#093c66] w-1/2 h-1/4">
     <p>div2</p>
     <img src="" alt="" />
       </div>

@@ -32,15 +32,17 @@ body {
   position: absolute;
   top: 450px; 
   bottom: 150px;
-  right: 1300px;
+  right: 1130px;
   color: #f4f3f7;
   font-size: 50px
 }
 #p-1{
   position: absolute;
-  left: 20%;
+  color: #f4f3f7;
   font-size: 30px;
-  bottom: 155px
+  bottom: 167px;
+  right :1300px; 
+  
   
 
 }
