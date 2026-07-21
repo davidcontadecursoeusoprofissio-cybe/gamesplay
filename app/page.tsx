@@ -18,7 +18,7 @@ export default function Home() {
       
       <img className="w-full h-full object-cover" src="imagem/Hollow-Knight-Silksong-e-adiado-nova-data-nao-foi-anunciada.webp" alt="" />
       <h1 id="h1-1" className="">DIGITALGAMES</h1>
-      <p id="p-1" className="whitespace no-warp bg-transparent">aqui você encontra jogos digitais,como retro e atuais</p>
+      <p id="p-1" className="whitespace no-warp bg-transparent">Explore nossa coleção de jogos digitais, com títulos retrô que marcaram época e os games mais recentes do mercado.</p>
       </div>
       <div className="bg-[#093c66] w-1/2 h-1/4">
     <p>div2</p>
