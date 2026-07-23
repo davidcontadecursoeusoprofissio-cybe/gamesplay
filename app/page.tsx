@@ -23,6 +23,7 @@ export default function Home() {
       <div className="bg-[#093c66] w-1/2 h-1/4">
     <p>div2</p>
     <img className="absolute right-0" src="imagem/images-removebg-preview (5).png" alt="" />
+    <img id="imagem" src="imagem/169-1691582_mario-pixel-jump-super-mario-world-mario-jumping-removebg-preview.png" alt="" />
       </div>
     </div>
     

@@ -46,3 +46,10 @@ body {
   
 
 }
+#imagem{
+  width: 90px;
+  height: 85px;
+  position: absolute;
+  bottom: 450px;
+  right: 220px;
+}
