@@ -2,12 +2,27 @@
     {
         "img":"imagem/images.jpg",
         "Nome":"Resident Evil4",
-        "descricao":"Jogo de ação e terror onde Leon S. Kennedy resgata a filha do presidente enquanto enfrenta criaturas infectadas.",
-        "Preço":"59,90",
-        "Estoque":"25",
+        "Descrição":"Jogo de ação e terror onde Leon S. Kennedy resgata a filha do presidente enquanto enfrenta criaturas infectadas.",
+        "Preço":59.90,
+        "Estoque":25,
         "Promoção":false
     },
     {
-        
+        "img":"imagem/images1.jpg",
+        "Nome":"DRAGON BALL Z: KAKAROT",
+        "Descrição":"RPG de ação para reviver a história de Dragon Ball Z na pele de Goku.",
+        "Preço":25.50,
+        "Estoque":15,
+        "Promoção":true
+
+    },
+    {
+        "img":"imagem/batman-arkham-knight-pc-steam-300x390.jpg",
+        "Nome":"Batman Arkham Knight PC",
+        "Descrição":"Jogo de ação e aventura no PC onde você controla o Batman defendendo Gotham City.",
+        "Preço":29.99,
+        "Estoque":12,
+        "Promoção":true
+
     }
 ]
