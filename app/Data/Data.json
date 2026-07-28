@@ -24,5 +24,16 @@
         "Estoque":12,
         "Promoção":true
 
+    },
+    {
+        "img":"imagem/capsule_616x353.jpg",
+        "Nome":"Brothers - A Tale of Two Sons",
+        "Descrição":"Brothers: A Tale of Two Sons é um jogo de aventura em que você controla dois irmãos simultaneamente para encontrar a cura e salvar o pai doente.",
+        "Preço":39.29,
+        "Estoque":17,
+        "Promoção":true
+    },
+    {
+        
     }
 ]
