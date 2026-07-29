@@ -4,7 +4,6 @@
         "Nome":"Resident Evil4",
         "Descrição":"Jogo de ação e terror onde Leon S. Kennedy resgata a filha do presidente enquanto enfrenta criaturas infectadas.",
         "Preço":59.90,
-        "Estoque":25,
         "Promoção":false
     },
     {
@@ -12,7 +11,6 @@
         "Nome":"DRAGON BALL Z: KAKAROT",
         "Descrição":"RPG de ação para reviver a história de Dragon Ball Z na pele de Goku.",
         "Preço":25.50,
-        "Estoque":15,
         "Promoção":true
 
     },
@@ -21,7 +19,6 @@
         "Nome":"Batman Arkham Knight PC",
         "Descrição":"Jogo de ação e aventura no PC onde você controla o Batman defendendo Gotham City.",
         "Preço":29.99,
-        "Estoque":12,
         "Promoção":true
 
     },
@@ -30,10 +27,21 @@
         "Nome":"Brothers - A Tale of Two Sons",
         "Descrição":"Brothers: A Tale of Two Sons é um jogo de aventura em que você controla dois irmãos simultaneamente para encontrar a cura e salvar o pai doente.",
         "Preço":39.29,
-        "Estoque":17,
         "Promoção":true
     },
     {
+        "img":"imagem/RDR2476298253_Epic_Games_Wishlist_RDR2_2560x1440_V01-2560x1440-2a9ebe1f7ee202102555be202d5632ec.jpg",
+        "Nome":"Red Dead Redemption 2",
+        "Descrição":"Red Dead Redemption 2 é um jogo de ação e aventura em mundo aberto no Velho Oeste.",
+        "Preço":35.90,
+        "Promoção":false
+    },
+    {
+        "img":"imagem/which-game-from-2017-is-the-most-well-written-including-v0-kwu5qdet3dvg1.jpg",
+        "Nome":"Hollow Knight",
+        "Descrição":"Hollow Knight é um jogo de ação e plataforma com exploração em um reino subterrâneo misterioso.",
+        "Preço":40.00,
+        "Promoção":true
         
     }
 ]
