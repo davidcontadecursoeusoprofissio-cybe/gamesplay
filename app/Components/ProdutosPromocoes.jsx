@@ -1,5 +1,5 @@
 import Data from '../Data.json'
-
+//Falta botão, adicionar o conta matematica, calculo inteligente, porcentagem para desconto e css
 export default function ProdutosPromoções(){
     return(
         <>
