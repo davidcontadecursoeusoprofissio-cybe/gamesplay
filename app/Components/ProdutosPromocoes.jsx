@@ -1,6 +1,6 @@
-import Data from '../Data.json'
+import Data from "../Data/Data.json"
 //Falta botão, adicionar o conta matematica, calculo inteligente, porcentagem para desconto e css
-export default function ProdutosPromoções(){
+export default function ProdutosPromocoes(){
     return(
         <>
             {Data.map((item) => {

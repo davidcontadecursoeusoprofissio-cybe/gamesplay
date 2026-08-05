@@ -1,19 +1,12 @@
 import Image from "next/image";
-import ProdutosPromocoes from "@/app/Components/ProdutosPromocoes"
+import ProdutosPromocoes from "@/app/Components/ProdutosPromocoes";
+import Nav from "@/app/Components/Nav"
 
 export default function Home() {
   return (
     <>
-    
-   <nav className="flex bg-[#110966] text-white h-20">
-  <ul className="flex items-center gap-4">
-    <li><img src="" alt="" /></li>
-    <li>Home</li>
-    <li>Produtos</li>
-    <li>Entra</li>
-    <li>Carrinho</li>
-  </ul>
-</nav>
+    <Nav/>
+
     <div className="flex w-full h-500 ">
       <div className="bg-gray-900 w-1/2 h-1/4 flex flex-col items-center justify-center" >
       
@@ -27,6 +20,8 @@ export default function Home() {
     <img id="imagem" src="imagem/169-1691582_mario-pixel-jump-super-mario-world-mario-jumping-removebg-preview.png" alt="" />
       </div>
     </div>
+
+    <ProdutosPromocoes/>//Arrumar aqui
     
     
     </>
