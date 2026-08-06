@@ -1,3 +1,6 @@
+//Colocar No Carrinho,CSS,Adicionar todos os produtos, colocar o if e else
+
+
 import Link from "next/link"
 import Data from "../Data/Data.json"
 

@@ -21,7 +21,7 @@ export default function Home() {
       </div>
     </div>
 
-    <ProdutosPromocoes/>//Arrumar aqui
+    <ProdutosPromocoes/>
     
     
     </>
