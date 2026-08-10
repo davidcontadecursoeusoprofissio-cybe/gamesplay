@@ -1,3 +1,4 @@
+
 "use client"
 
 import { useEffect, useState } from "react"
@@ -36,8 +37,16 @@ export default function Carrinho(){
 
             {produtos.map((item) => {
 
-                const desconto = 20
-                const precoFinal = item.Preço - (item.Preço * desconto / 100)
+                let desconto
+                let precoFinal
+
+                if (item.Promoção == true) {
+                    desconto = 20
+                    precoFinal = item.Preço - (item.Preço * desconto / 100)
+                } else {
+                    desconto = 0
+                    precoFinal = item.Preço
+                }
 
                 return(
                     <div key={item.Nome}>
@@ -72,3 +81,4 @@ export default function Carrinho(){
         </div>
     )
 }
+
