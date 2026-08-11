@@ -33,7 +33,7 @@ export default function Carrinho(){
     return(
         <div>
 
-            <h1>Carrinho de compras</h1>
+         
 
             {produtos.map((item) => {
 
@@ -49,9 +49,9 @@ export default function Carrinho(){
                 }
 
                 return(
-                    <div key={item.Nome}>
+                    <div  className="bg-[#2f0966] h-120 w-120 "  key={item.Nome}>
 
-                        <img src={item.img} alt={item.Nome} width="200"/>
+                        <img className="object-contain h-72 w-80" src={item.img} alt={item.Nome} width="200"/>
 
                         <h2>{item.Nome}</h2>
 
@@ -69,7 +69,7 @@ export default function Carrinho(){
                             Preço final: R$ {precoFinal.toFixed(2)}
                         </p>
 
-                        <button onClick={() => removerProduto(item.Nome)}>
+                        <button className="bg-red-800 " onClick={() => removerProduto(item.Nome)}>
                             Remover
                         </button>
 

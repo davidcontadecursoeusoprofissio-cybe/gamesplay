@@ -42,17 +42,18 @@ export default function ProdutosSemPromoções() {
                 if(item.Promoção == false)
 
                 return (
-                    <div key={item.Nome}>
+                    
+                    <div className="bg-[#2f0966] h-120 w-120 text-white"  key={item.Nome}>
 
-                        <img src={item.img} alt="" />
+                        <img className="object-contain h-72 w-80 ms-20 mt-10" src={item.img} alt="" />
 
-                        <h1>Nome: {item.Nome}</h1>
+                        <h1 className="ms-28">Nome: {item.Nome}</h1>
 
-                        <p>Descrição: {item.Descrição}</p>
+                        <p className="text-[12px]">Descrição: {item.Descrição}</p>
 
                         <p>Preço: {item.Preço}</p>
 
-                        <button onClick={() => adicionarCarrinho(item)}>
+                        <button className="bg-green-400 h-6 w-70 ms-27 " onClick={() => adicionarCarrinho(item)}>
                             Adicionar ao carrinho
                         </button>
 

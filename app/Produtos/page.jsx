@@ -6,8 +6,12 @@ export default function Produtos(){
     return(
         <>
        <Nav/>
+       <div className="flex  flex-wrap gap-3 ">
        <ProdutosSemPromocoes/>
        <ProdutosPromocoes/>
+
+       </div>
+      
         </>
     )
 }
