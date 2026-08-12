@@ -37,16 +37,16 @@ export default function ProdutosPromocoes(){
                     const precoDesconto = item.Preço - (item.Preço * desconto / 100)
 
                     return(
-                        <div  className="bg-[#2f0966] h-120 w-120 text-white"  key={item.Nome}>
+                        <div  className=" rounded  overflow-hidden bg-[#2f0966] h-120 w-120 text-white mt-12 ms-3"  key={item.Nome}>
                         <img className="object-contain h-72 w-80 ms-20 m-1 " src={item.img} alt="" />
-                        <h1>Nome: {item.Nome}</h1>
-                        <p className="text-[12px]">Descrição:{item.Descrição}</p>
-                        <p>Preço antigo:{item.Preço}</p>
-                        <p>Desconto:{desconto}%</p>
-                        <p>Preço final:{precoDesconto}</p>
+                        <h1 className="ms-26">Nome: {item.Nome}</h1>
+                        <p className="text-[12px] ms-5">Descrição:{item.Descrição}</p>
+                        <p className="ms-45">Preço antigo:{item.Preço}</p>
+                        <p className="ms-45">Desconto:{desconto}%</p>
+                        <p className="ms-45">Preço final:{precoDesconto}</p>
                         
                         <Link href="/Carrinho">   
-                        <button className="bg-green-400 h-6 w-70 ms-27 " onClick={() => adicionarCarrinho(item)}>
+                        <button className=" rounded bg-green-400 h-6 w-70 ms-27 cursor-pointer " onClick={() => adicionarCarrinho(item)}>
                         Ir para o carrinho
                         </button>
                         </Link>

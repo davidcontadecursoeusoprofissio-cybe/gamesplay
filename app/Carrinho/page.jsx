@@ -49,23 +49,23 @@ export default function Carrinho(){
                 }
 
                 return(
-                    <div  className="bg-[#2f0966] h-120 w-120 "  key={item.Nome}>
+                    <div  className="bg-[#2f0966] h-120 w-120 text-white "  key={item.Nome}>
 
                         <img className="object-contain h-72 w-80" src={item.img} alt={item.Nome} width="200"/>
 
-                        <h2>{item.Nome}</h2>
+                        <h2 className="ms-38">{item.Nome}</h2>
 
-                        <p>{item.Descrição}</p>
+                        <p className="text-[12px] ms-1">{item.Descrição}</p>
 
-                        <p>
+                        <p className="ms-32">
                             Preço antigo: R$ {item.Preço}
                         </p>
 
-                        <p>
+                        <p className="ms-32">
                             Desconto: {desconto}%
                         </p>
 
-                        <p>
+                        <p className="ms-32">
                             Preço final: R$ {precoFinal.toFixed(2)}
                         </p>
 

@@ -20,8 +20,9 @@ export default function Home() {
     <img id="imagem" src="imagem/169-1691582_mario-pixel-jump-super-mario-world-mario-jumping-removebg-preview.png" alt="" />
       </div>
     </div>
-    
+    <div className="flex  flex-wrap gap-3 -mt-380">    
     <ProdutosPromocoes/>
+    </div>
     
     
     </>
