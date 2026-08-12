@@ -10,6 +10,8 @@ import Data from "../Data/Data.json"
 
 export default function ProdutosSemPromoções() {
 
+ 
+
     const router = useRouter()
 
     function adicionarCarrinho(item) {
@@ -57,6 +59,8 @@ export default function ProdutosSemPromoções() {
                             Adicionar ao carrinho
                         </button>
 
+                      
+                
                     </div>
                 )
 

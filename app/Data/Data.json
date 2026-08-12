@@ -41,7 +41,8 @@
         "Nome":"Hollow Knight",
         "Descrição":"Hollow Knight é um jogo de ação e plataforma com exploração em um reino subterrâneo misterioso.",
         "Preço":40.00,
-        "Promoção":true
+        "Promoção":true,
+        "Genero":"açao"
         
     }
 ]
