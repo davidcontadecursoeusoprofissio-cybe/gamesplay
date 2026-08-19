@@ -1,10 +1,10 @@
-export default function Nav(){
-   function busca(){
-        let tipo ="Açao"
+"use client"
 
-        lista.map(())
-        return genero 
-    }
+import { useState , useRef} from "react"
+
+
+
+export default function Nav(){
 
 
     return(
@@ -16,13 +16,7 @@ export default function Nav(){
     <li>Entra</li>
     <li><a href="http://localhost:3000/Carrinho">Carrinho</a></li>
   </ul>
-  <select name="" id="">
-                <option value="açao">açao</option>
-                <option value="terror">terro</option>
-                <option value="aventura">aventura</option>
-
-            </select>
-            <button onClick={busca()}>buscar</button>
+  
 </nav>
     )
 }
