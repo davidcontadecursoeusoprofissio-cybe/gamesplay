@@ -3,6 +3,10 @@
 import { useState, useRef } from "react"
 
 export default function Nav(){
+//variavel-if else-variavel mais o ?data?=Nav(item) map=Data e criar um elemento para o data-input
+  function Busca(){
+
+  }
 
     return(
         <nav className="flex bg-[#110966] text-white h-20">
