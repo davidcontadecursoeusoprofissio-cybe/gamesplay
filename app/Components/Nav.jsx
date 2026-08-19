@@ -1,12 +1,40 @@
 "use client"
 
+import Data from "../Data/Data.json"
+
 import { useState, useRef } from "react"
 
-export default function Nav(){
+export default function Nav(props){
+
 //variavel-if else-variavel mais o ?data?=Nav(item) map=Data e criar um elemento para o data-input
+
+
+const[buscas, setBuscas]= useState(0)
+
+
   function Busca(){
 
+    return(
+
+      Data.map((item)=>{
+
+        if(item.Nome == buscas){
+
+          console.log("achei")
+
+        }
+        else{
+
+          console.log("nao achei")
+
+        }
+
+      })
+
+    )
+
   }
+
 
     return(
         <nav className="flex bg-[#110966] text-white h-20">
@@ -68,6 +96,20 @@ export default function Nav(){
                 </li>
 
             </ul>
+
+
+            <input
+                type="text"
+                value={buscas}
+                onChange={(e) => setBuscas(e.target.value)}
+                placeholder="Buscar produto"
+            />
+
+
+            <button onClick={Busca}>
+                Buscar
+            </button>
+
 
         </nav>
     )
